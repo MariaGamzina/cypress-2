@@ -32,7 +32,7 @@ describe('login admin spec', () => {
   });
 });
 
-describe.only('Book tickets admin', () => {
+describe('Book tickets admin', () => {
 
   it('successful booking tickets ', () => {    
     cy.login(happy.email,happy.password);
