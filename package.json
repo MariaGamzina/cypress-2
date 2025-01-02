@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:cinema": "cypress run  --group cinema --ci-build-id 21 --spec cypress/e2e/cinema.cy.js --record --key 031d9b8c-1a37-447a-b397-e8d7cef800bd",
+    "cy:admin": "cypress run  --group admin --ci-build-id 21 --spec cypress/e2e/admin.cy.js --record --key 031d9b8c-1a37-447a-b397-e8d7cef800bd"
   },
   "author": "",
   "license": "ISC",
